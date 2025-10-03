@@ -1,17 +1,23 @@
-div{
-	width:100px;
-	height:100px;
-	margin-left:1px;
-	padding: 25px;
-    display: inline ;
+.hero {
+    display: flex; /* or grid */
+    justify-content: center; /* center items horizontally */
+    align-items: right; /* center items vertically */
+    flex-direction: row; /* stack items vertically */
+    height: 30vh; /* full viewport height */
+    background-color: #f0f0f0; 
+	font-size:10px;/* background color */
 }
-img{
-	width:400px;
-	height:199px;
+
+.hero img {
+    width: 100%; /* full width */
+    height: 200px; /* maintain aspect ratio */
+    object-fit: cover; /* cover the container */
 }
-button
-{
-	color:white;
-	position:right;
-	background-color:red;
+
+button {
+    padding: 0px 10px; /* padding for the button */
+    background-color: red; /* button color */
+    color: white; /* text color */
+    border-radius: 5px; /* rounded corners */
+    text-decoration: none; /* remove underline */
 }
