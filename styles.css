@@ -1,23 +1,21 @@
 .hero {
-    display: flex; /* or grid */
-    justify-content: center; /* center items horizontally */
-    align-items: right; /* center items vertically */
-    flex-direction: row; /* stack items vertically */
-    height: 30vh; /* full viewport height */
-    background-color: #f0f0f0; 
-	font-size:10px;/* background color */
+    display: flex; /* This allows you to arrange items in a row or column */
+    justify-content: right; /* This centers items horizontally */
+    align-items: right; /* This centers items vertically */
+    flex-direction: row; /* This stacks items vertically */
+    height: 100vh; /* This makes the hero section take the full height of the viewport */ /* Background color */
 }
 
 .hero img {
-    width: 100%; /* full width */
-    height: 200px; /* maintain aspect ratio */
-    object-fit: cover; /* cover the container */
+    width: 100%; /* This makes the image take the full width of the container */
+    height: auto; /* This maintains the aspect ratio of the image */
+    object-fit: cover; /* This ensures the image covers the container */
 }
 
 button {
-    padding: 0px 10px; /* padding for the button */
-    background-color: red; /* button color */
-    color: white; /* text color */
-    border-radius: 5px; /* rounded corners */
-    text-decoration: none; /* remove underline */
+    padding: 10px 20px; /* This adds space inside the button */
+    background-color: red; /* Button color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Removes underline from the link */
 }
