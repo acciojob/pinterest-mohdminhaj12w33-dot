@@ -9,7 +9,7 @@
 }
 
 .hero img {
-	object-fit:fill;
+	object-fit: fill;
     width: 800px; /* Full width */
     height: 300px; /* Maintain aspect ratio */
 }
