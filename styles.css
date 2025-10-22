@@ -9,9 +9,9 @@
 }
 
 .hero img {
+	object-fit:cover;
     width: 800px; /* Full width */
     height: 300px; /* Maintain aspect ratio */
-    object-fit: cover; /* Cover the container */
 }
 
 button{
