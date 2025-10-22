@@ -1,42 +1,42 @@
 .{
-	margin:0;
-	padding:0;
+margin:0;
+padding:0;
 }
-.hero {/* Full height */
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Center items horizontally */
-    align-items: center; /* Center items vertically *//* Stack items vertically */
+.hero {
+display: flex; 
+justify-content: space-between;
+align-items: center; 
 }
 
 .hero img {
-	object-fit: fill;
-    width: 800px; /* Full width */
-    height: 300px; /* Maintain aspect ratio */
+object-fit: fill;
+width: 800px; 
+height: 300px;
 }
 
 button{
-    padding: 10px ; /* Padding for the button */
-    background-color: red; /* Button color */
-    color: white; /* Text color */
-    border-radius: 15px; /* Rounded corners */
-   border:none;
+padding: 10px ; 
+background-color: red; 
+color: white; 
+border-radius: 15px;
+border:none;
 }
 .details{
-	width:300px;
-	margin-left:40px;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
+width:300px;
+margin-left:40px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 }
 .details h1{
-	font-size:30px;
-	margin-bottom:12px;
-	text-align:center;
+font-size:30px;
+margin-bottom:12px;
+text-align:center;
 }
 .details p{
-	font-size:15px;
-	color:grey;
-	margin-bottom:12px;
-	text-align:center;
+font-size:15px;
+color:grey;
+margin-bottom:12px;
+text-align:center;
 }
